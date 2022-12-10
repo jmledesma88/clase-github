@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--FORMULARIOS-->
+
+    <form action="" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <div>
+                <label for="nombre">Ingrese su nombre</label>
+                <input type="text" id="nombre" placeholder="Fulanito Perez" required>
+            </div>
+            <div>
+                <label for="correo">Ingrese su correo</label>
+                <input type="email" name="" id="correo" placeholder="fulanitop@...">
+            </div>
+            <div>
+                <label for="contraseña">Ingrese su contraseña</label>
+                <input type="password" name="" id="contraseña">                    
+            </div>
+            <div>
+                <label for="fecha">Seleccione una fecha</label>
+                <input type="date" name="" id="fecha">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>DATOS PROFESIONALES</legend>
+            <div>
+                ¿Posee empleo?
+                <label for="empleosi">si</label>
+                <input type="radio" name="empleoactual" id="empleosi" value="tiene empleo" checked>
+                <label for="empleono">no</label>
+                <input type="radio" name="empleoactual" id="empleono" value="no tiene empleo">    
+            </div>
+            <div>
+                SKILLS:
+                <label for="phyton">PHYTON</label>
+                <input type="checkbox" name="" id="phyton" value="PHYTON">
+                <label for="css">CSS</label>
+                <input type="checkbox" name="" id="css" value="CSS">
+                <label for="html">HTML</label>
+                <input type="checkbox" name="" id="html" value="HTML">
+            </div>
+            <select name="" id="">
+                <option value="OPT1">OPT1</option>
+                <option value="OPT2">OPT2</option>
+                <option value="OPT3">OPT3</option>
+            </select>
+        </fieldset> 
+        <div>
+            <textarea name="" id="" cols="30" rows="4"></textarea>
+        </div>
+        <div>
+            <input type="button" value="SOY EL BOTON">
+            <input type="submit" value="SOY EL BOTON ENVIAR">
+            <input type="reset" value="SOY EL BOTON RESETEAR">
+        </div>
+        <button>SOY EL BOTON</button>
+    </form>
+
+</body>
+</html>
